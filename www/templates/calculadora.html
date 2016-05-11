@@ -1,0 +1,20 @@
+<ion-view title="Calculadora" id="page4" style="background-color:#201D1D;">
+    <ion-content padding="true" class="has-header">
+        <div class="list card">
+            <div class="item item-divider">Calculadora</div>
+            <div class="item item-body">
+                <form class="list">
+                    <label class="item item-input" name="txtPrimeiro">
+                        <input ng-model="primeiro" id="txtPrimeiro" type="number" placeholder="PrimeiroNumero">
+                    </label>
+                    <ion-item class="item-divider">+</ion-item>
+                    <label class="item item-input" name="txtSegundo">
+                        <input ng-model="segundo" id="txtSegundo" type="number" placeholder="SegundoNumero">
+                    </label>
+                    <button ng-click="calcular()" id="calculadora-button1" style="font-weight:500;" class="button button-dark button-large button-block">Calcular</button>
+                </form>
+            </div>
+            <div class="item item-divider">Tabajara</div>
+        </div>
+    </ion-content>
+</ion-view>
